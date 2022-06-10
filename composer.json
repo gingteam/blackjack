@@ -1,0 +1,29 @@
+{
+    "name": "gingteam/blackjack",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "authors": [
+        {
+            "name": "ging-dev",
+            "email": "thanh1101dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sybio/image-workshop": "^2.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21",
+        "phpstan/phpstan": "^1.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
